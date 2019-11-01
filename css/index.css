@@ -105,9 +105,15 @@ html{
 }
 
 .sns-wrap > ul.sns-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
 }
 
 .sns-wrap > ul > li {
+    padding-left: calc(25%/4);
+    padding-right: calc(25%/4);
 }
 .sns-wrap > ul > li > a{
 }
